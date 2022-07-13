@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9fa8da;
+}
+.mainDiv {
+  width: 153px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  flex-direction: column;
+}
+.fDiv {
+  display: flex;
+  width: 153px;
+  height: 55px;
+}
+.fDiv .sub-btn {
+  width: 50px;
+  height: 55px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: none;
+  font-size: 35px;
+  background-color: #ede7f6;
+  color: #f44336;
+  cursor: pointer;
+  outline: none;
+}
+.fDiv .sub-diseblebtn {
+  width: 53px;
+  height: 55px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: none;
+  font-size: 35px;
+  background-color: #ede7f6;
+  color: #bdbdbd;
+  outline: none;
+  pointer-events: none;
+}
+.notallowed-cursor {
+  width: 50px;
+  height: 55px;
+  cursor: not-allowed;
+}
+.fDiv .count {
+  width: 50px;
+  line-height: 0;
+  background: #ede7f6;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+.count p {
+  width: 50px;
+  height: 50px;
+  margin-top: 2px;
+  border-radius: 37px;
+  background-color: #1a237e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fDiv .add-btn {
+  width: 50px;
+  text-align: center;
+  line-height: 0;
+  padding-left: 0px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border: none;
+  font-size: 35px;
+  background-color: #ede7f6;
+  color: #4caf50;
+  cursor: pointer;
+  outline: none;
+}
+.sDiv {
+  padding-top: 10px;
+}
+.sDiv .reset-btn {
+  padding: 8px 28px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #ffc107;
+  color: #fff;
+  cursor: pointer;
+}
